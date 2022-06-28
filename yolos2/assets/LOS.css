@@ -1,0 +1,67 @@
+.container1 {
+    float: none;
+    width: 1500px;
+    height: 100%;
+background-color: aliceblue;
+}
+
+.container2 {
+    width: 1500px;
+    height: 100%;
+    margin-top: 20px;
+}
+
+.container3 {
+width: 1500px;
+height: 100%;
+margin-top: 20px;
+
+}
+
+
+
+.container5 {
+    width: 1500px;
+    height: 100px;
+    margin-left: 350px;
+}
+
+.container6 {
+width: 1500px;
+height: 100px;
+text-align: right;
+margin-right: 50px;
+}
+
+.container7 {
+width: 1500px;
+height: 100px;
+text-align: left;
+}
+
+.container8 {
+background-color: blueviolet;
+color: white;
+width: 120px;
+}
+
+.container9 {
+    background-color: rgb(222, 222, 244);
+
+    
+}
+
+@media screen and (max-width: 1500px) {
+    
+}
+
+@media screen and (max-width: 700px) {
+    
+}
+
+@media screen and (max-width: 500px) {
+ 
+}
+
+
+

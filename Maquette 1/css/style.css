@@ -1,0 +1,103 @@
+table,
+th,
+td {
+    border: 1px solid black; text-align: center; width: 40%; color: blue; 
+}
+
+h1 {
+color: rgb(13, 13, 12);
+font-size: 60px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+<body>
+{background: #eaeaea url('images/body.png');/*(grille grise et blanche)*/
+    margin: 20px 30px; /*Donner plus de marge à gauche et à droite, et moins en haut et en bas */
+    font-family: sans-serif; /* police moderne, sans empattements, du type times New Roman */
+    }
+
+#entete {
+background: #9f9f9f url(entete.png); /* (grosse barre grise)*/
+border: 1px solid black; /*Une bordure noire de 1 pixel sur tous les côté, sauf...*/
+border-bottom: none; /* ... en bas, pour ne pas faire double-emploi avec la bordure du haut de #page */
+}
+h1 {
+height: 58px; /* La hauteur de entete.png (grosse barre grise) */
+line-height: 58px; /* Centrer le texte sur toute la hauteur de l'image de fond */
+border-bottom: 1px solid black; /* l'entête est composé de deux parties : h1 et #menu, il faut donc les séparer */
+margin: 0; /* Par défaut les navigateurs assignent une marge aux titres. Ici on gère notre propre mise en page */
+text-align: center; /* Centrer le texte horizontalement sur toute la largeur de la page */
+background: url(image/h1.png) 50% no-repeat; /* cett jolie image, unique et centrée, remplace le texte ennuyeux */
+text-indent: -32000px; /* On décale le titre autant que possible sur la gauche de l'écran, pour ne plus le voir */
+}
+
+.bouton {
+background: url('images/bouton-gauche.npg'); /* Bord gauche et contenu du bouton */
+float: left; /* Afin que le DIV prenne la largeur de son contenu, et non la largeur de la page, pour des raisons didactiques */
+margin: 7px; /* Espacer les boutons entre eux, rien à voir avec la technique des portes coulissantes */
+}
+.bouton DIV {
+background: url('images/bouton-droite.png') 100% 0 no-repeat; /* Bord droit du bouton, aligné à droite ! */
+height: 30px; /* Hauteur des images bouton-gauche.npg et bouton-droite.npg */
+line-height: 30px; /* Centrer le texte verticalement sur le bouton */
+padding: 0 10px; /* s'assurer que le texte ne soit pas coller aux bordures du bouton */
+color: white; /* Le bouton est bleu foncé, le texte doit être clair */
+}
+
+<div class="boite" style="width: 300px;">
+<div>
+<div>
+<div>
+Texte du cadre de 300 pixels
+<div>
+<div>
+</div>
+
+.boite {
+background: #f0f0f0 url('images/cadre-haut-gauche.npg'); /* La couleur de fond de la boîte... */
+margin: 7px; /* ... ainsi que la marge de la boîte se définissent dans le bloc le plus externe */
+}
+
+.boite div {
+background: url('images/cadre-bas.png') 0 100% no-repeat;
+}
+
+.boite div div {
+    background: url('images/cadre-droite.png') 100% 0 no-repeat;
+    }
+    
+    .boite div div div {
+        background: url('images/cadre-bas-droite.png') 100% 100% no-repeat;
+        padding: 13px 16px 16px 13px; /* l'espacement intérieur de la boîte se définit dans le bloc le plus interne */
+        }
+    
+/* Petit bonus de sécurité : */
+.boite div div div div {
+background: none; /* si la boîte contient elle-même des div, éviter que ceux-ci aient cadre-bas-droite.png comme image de fond... */
+padding: 0;     /* ... et qu'elles aient un padding, définit dans la règle ci-dessus */
+}
+a {
+background: blue url('images/bouton-bleu.png');
+}
+
+a:hover {
+    background: yellow url('images-bouton-jaune.npg'); /* Ceci est la mauvaise méthode, qui fait clignoter les liens */
+}
+
+<a href="#survol" class="bouton"><span>Texte du bouton</span><a/>
+
+.bouton {
+    background: url('images/bouton-gauche.png'); Bord gauche et contenu du bouton */
+    float: left; /* Afin que le DIV prenne la largeur de son contenu, et non la largeur de la page, pour des raisons didactiques */
+    margin: 7px; /* Espacer les boutons entre eux, rien à voir avec la technique des portes coulissantes */
+
+    /* ce qui change par rapport à l'exemple précédent : */
+    display: block; /* pour pouvoir assigner une taille */
+    text-decoration: none; /* On utilise un lien au lieu d'un DIV. Un lien est souligné par défaut, mais on veut le même look qu'avant */
+    cursor: pointer; /* Curseur en forme de main, pour résoudre un bug sous IE, causé lors du changement du lien en affichage bloc, quelques lignes plus haut */
+}
+
+</body>
+
+
+
+

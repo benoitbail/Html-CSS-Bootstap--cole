@@ -1,0 +1,36 @@
+li {
+    display: inline;
+    
+}
+
+
+.box2 {
+    border: 35px;
+    float: left;
+    height: 30px;
+    width: 100%;
+    background-color: green;
+    
+}
+
+
+h1 {
+    float: right;
+}
+
+.box4 {
+    
+}
+
+.box5 {
+float: left;
+}
+
+.box6 {
+    border: 35px;
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+
+

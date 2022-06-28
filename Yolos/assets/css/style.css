@@ -1,0 +1,181 @@
+.header{
+    width: 100%px;
+}
+
+.UXOS {
+    float: left;
+    width: 50%;
+    height: 50px;
+    color: blueviolet;
+    background-color: aliceblue;
+}
+
+.hamburger {
+    float: right;
+    width: 50%;
+    height: 50px;
+    background-color: rgb(19, 5, 56);
+    color: aqua;
+}
+
+.container {
+    background-color: aliceblue;
+}
+.image {
+    width: 1500px;
+    height: 100%;
+    margin: 10px;
+    border: 1px;
+}
+
+.boxgauche{
+    background-color: aliceblue;
+    width: 50%;
+    height: 600px;
+    float:left;
+    color: blueviolet;
+    
+}
+
+.boxdroite{
+    background-color: rgb(19, 5, 56);
+    color: aliceblue;
+    width: 50%;
+    height: 600px;
+    float:right;
+}
+
+.container1{
+    margin: height 5px;
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+}
+
+.Amazing {
+    width: 100%;
+}
+
+
+.Download {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(250, 248, 248);    
+}
+.Quick {
+    float: left;
+    width: 34%;
+    height: 150px;
+    background-color: antiquewhite;
+}
+
+.High {
+    float: right;
+    width: 33%;
+    height: 150px;
+    background-color: antiquewhite;
+}
+
+.Modern {
+    float: right;
+    width: 33%;
+    height: 150px;
+    background-color: antiquewhite;
+}
+
+.container2 {
+    width: 100%;
+}
+
+.lorem1 {
+    float: left;
+    width: 34%;
+    height: 150px;
+    background-color: antiquewhite;
+}
+
+.lorem2 {
+    float: right;
+    width: 33%;
+    height: 150px;
+    background-color: antiquewhite;
+}
+
+.lorem3 {
+    float: right;
+    width: 33%;
+    height: 150px;
+    background-color: antiquewhite;
+}
+
+.container4 {
+    width: 100%;
+}
+
+.box1 {
+    float: left;
+    width: 20%;
+    height: 450px;
+    color: azure;
+    background-color:  rgb(15, 15, 92); 
+}
+
+.box2 {
+    float: left;
+    width: 20%;
+    height: 450px;
+    color: azure;
+    background-color:  rgb(15, 15, 92);
+     
+}.box3 {
+    float: right;
+    width: 20%;
+    height: 450px;
+    color: azure;
+    background-color:  rgb(15, 15, 92); 
+}
+
+.box4 {
+    float: right;
+    width: 20%;
+    height: 450px;
+    background-color:  rgb(15, 15, 92); 
+}
+
+.box5 {
+    float: right;
+    width: 20%;
+    height: 450px;
+    color: azure;
+    background-color: rgb(15, 15, 92); 
+}
+
+.container5 {
+    width: 100%
+}
+
+.About {
+    float: left;
+    color: rgb(0, 0, 0);
+    background-color: azure;
+}
+
+.lorem {
+    float: right;
+    color: black;
+    background-color: azure;
+}
+
+@media screen and (max-width: 1500px) {
+    
+}
+
+@media screen and (max-width: 700px) {
+    
+}
+
+@media screen and (max-width: 500px) {
+
+}
+
+
